@@ -52,8 +52,7 @@ This project involves building a Convolutional Neural Network (CNN) model to ana
 
    ```bash
    git clone https://github.com/elsayedelmandoh/Medical-Image-Analysis-with-CNN.git
-   
-   ```bash
+
    cd Medical-Image-Analysis-with-CNN
 
 ## Contributing
