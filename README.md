@@ -12,8 +12,7 @@
 
 
 ## Project Objectives
-
-This project involves building a Convolutional Neural Network (CNN) model to analyze medical images, such as X-rays or MRIs, for detecting diseases or abnormalities. The goal is to develop a robust model that can accurately classify images into binary classes: normal or pneumonia.
+In this project, you will build Convolutional Neural Network (CNN), VGG16, and ResNet models for medical image analysis, such as X-rays or MRIs, for detecting diseases or abnormalities. The goal is to analyze medical images, such as X-rays or MRIs, to detect diseases or abnormalities. 
 
 1. **Exploratory Data Analysis (EDA):** Analyze the dataset, explore correlations between features, and handle outliers or missing values.
 
@@ -38,13 +37,19 @@ This project involves building a Convolutional Neural Network (CNN) model to ana
 
 ## Code Structure
 
-- **Data Acquisition:** Load and explore the dataset.
-- **Data Visualization:** Visualize sample images from the training, validation, and test sets.
-- **Data Preprocessing:** Preprocess the dataset, split into training and testing sets, and normalize pixel values.
-- **CNN Model Architecture:** Build an advanced CNN model with various convolutional and dense layers.
-- **Callbacks:** Implement callbacks for model checkpointing, learning rate reduction, and early stopping.
-- **Model Training:** Train the CNN model using the prepared data.
-- **Metrics and Visualization:** Display accuracy and loss metrics during model training. Evaluate the model's performance and visualize results.
+The code is organized into different sections:
+- **Verify GPU**: Check the availability of GPU.
+- **Data Acquisition**: Download and preprocess the dataset using TensorFlow and OpenCV.
+- **Data Exploration and Preprocessing**: Explore the dataset and preprocess it for training.
+- **EDA (Exploratory Data Analysis)**: Visualize the distribution of classes in the dataset.
+- **CNN Model Architecture and Hyperparameter Tuning**: Build and optimize a CNN model using scikeras and RandomizedSearchCV.
+- **VGG16 Model Architecture and Hyperparameter Tuning**: Build and optimize a VGG16 model.
+- **ResNet Model Architecture and Hyperparameter Tuning**: Build and optimize a ResNet model.
+- **Callbacks**: Implement callbacks such as ModelCheckpoint, ReduceLROnPlateau, and EarlyStopping.
+- **Training the Model**: Train the models with the prepared dataset.
+- **Displaying Metrics**: Visualize the training and validation metrics.
+- **Evaluation Metrics for the Test Set**: Evaluate the models on the test set and display classification reports and confusion matrices.
+- **Model Comparison**: Compare the performance of different models
 
 ## How to Use
 
