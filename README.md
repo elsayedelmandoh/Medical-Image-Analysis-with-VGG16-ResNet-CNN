@@ -12,13 +12,13 @@
 
 
 ## Project Objectives
-In this project, you will build Convolutional Neural Network (CNN), VGG16, and ResNet models for medical image analysis, such as X-rays or MRIs, for detecting diseases or abnormalities. The goal is to analyze medical images, such as X-rays or MRIs, to detect diseases or abnormalities. 
+Developed multi-models to analyze X-ray medical images for detecting diseases or abnormalities. Utilized VGG16 with a training accuracy of 74% and a test accuracy of 77%. Implemented a ResNet model, achieving a training accuracy of 93% but a test accuracy of 62%. Additionally, trained a custom CNN model with a training accuracy of 74% and a test accuracy of 62%.
 
 1. **Exploratory Data Analysis (EDA):** Analyze the dataset, explore correlations between features, and handle outliers or missing values.
 
 2. **Preprocessing:** Preprocess the dataset by splitting it into training and testing sets. Normalize pixel values to prepare for model training.
 
-3. **Build CNN Model:** Utilize TensorFlow and Keras to build a CNN model. Experiment with different architectures, activation functions, and learning rates to find the optimal model for medical image analysis.
+3. **Build CNN Model:** Utilize TensorFlow and Keras to build a VGG16, ResNet and CNN model. Experiment with different architectures, activation functions, and learning rates to find the optimal model for medical image analysis.
 
 4. **Model Evaluation:** Evaluate the model's performance using metrics such as accuracy, precision, recall, and F1 score. Visualize the results with confusion matrices.
 
